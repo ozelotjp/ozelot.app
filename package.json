@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.4",
+    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-sitemap": "^2.1.2",
+    "vuepress-theme-meteorlxy": "ozelotjp/vuepress-theme-meteorlxy-original"
+  },
+  "devDependencies": {
+    "textlint": "^11.3.1",
+    "textlint-filter-rule-whitelist": "^2.0.0",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3"
+  }
+}

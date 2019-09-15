@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "allowEmojiAtEnd": true
+      },
+      "no-exclamation-question-mark": {
+        "allowFullWidthExclamation": true
+      }
+    }
+  },
+  "filters": {
+    "whitelist": {
+      "allow": [
+        "/^:::[\\s\\S]*?$/m"
+      ]
+    }
+  }
+}
