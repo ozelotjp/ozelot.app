@@ -82,12 +82,12 @@ module.exports = {
     ]
   ],
   markdown: {
-    config: md => {
-      md.set({ breaks: true })
-    },
+    // config: md => {
+    //   md.set({ breaks: false })
+    // },
     lineNumbers: true
   },
-  chainMarkdown(config) {
-    config.options.breaks(true)
-  }
+  // chainMarkdown(config) {
+  //   config.options.breaks(false)
+  // }
 }
