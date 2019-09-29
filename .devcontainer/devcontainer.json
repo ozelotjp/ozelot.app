@@ -1,0 +1,21 @@
+// https://code.visualstudio.com/docs/remote/containers#_devcontainerjson-reference
+{
+  // General
+  "name": "ozelot.app",
+  "extensions": [
+    "codezombiech.gitignore",
+    "davidanson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "shuworks.vscode-table-formatter",
+    "taichi.vscode-textlint",
+    "yzhang.markdown-all-in-one"
+  ],
+  "settings": {},
+  "postCreateCommand": "apk add git && if [ ! -d node_modules ]; then yarn; fi",
+
+  // Docker image
+  "image": "node:alpine",
+  "context": "..",
+  "appPort": [8080]
+}
